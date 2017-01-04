@@ -7,5 +7,6 @@ options(repos = c(
     BioCextra = "https://bioconductor.org/packages/3.3/extra"
 ))
 
-pkgs <- c("pcaMethods","e1071", "clusterProfiler", "ReactomePA", "org.Mm.eg.db")
+pkgs <- c("pcaMethods","e1071", "clusterProfiler", "ReactomePA", "org.Mm.eg.db",
+          "MSnbase", "Biostrings", "Heatplus", "made4")
 install.packages(pkgs)
