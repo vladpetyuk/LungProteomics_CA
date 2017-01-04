@@ -8,5 +8,5 @@ options(repos = c(
 ))
 
 pkgs <- c("pcaMethods","e1071", "clusterProfiler", "ReactomePA", "org.Mm.eg.db",
-          "MSnbase", "Biostrings", "Heatplus", "made4")
+          "MSnbase", "Biostrings", "Heatplus", "made4","FField")
 install.packages(pkgs)
