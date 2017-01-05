@@ -21,6 +21,6 @@ Environment for reproducing the analysis of the proteomics data collected during
     
     - RStudio server should be available at `localhost:8787`
 
-3. Upload R script `mouse_lung_dynamics.R` and the text files with quant info `TQ4_Set1.txt` and `TQ4_Set2.txt`
+3. Upload R script `mouse_lung_dynamics.R` and the text files with quant info `TQ4_Set1.txt`, `TQ4_Set2.txt` and UniProt ID conversion table `uniprot_mouse_ref_24Jul2016.txt`.
 
 4. R script is written in a "spin" format. Click compile notebook (File -> Compile Report...) to create the report in HTML format.
