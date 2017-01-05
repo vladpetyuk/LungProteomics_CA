@@ -23,4 +23,4 @@ Environment for reproducing the analysis of the proteomics data collected during
 
 3. Upload R script `mouse_lung_dynamics.R` and the text files with quant info `TQ4_Set1.txt` and `TQ4_Set2.txt`
 
-4. R script is written in a "spin" format. Click compile notebook to create the report in HTML format.
+4. R script is written in a "spin" format. Click compile notebook (File -> Compile Report...) to create the report in HTML format.
