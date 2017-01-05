@@ -8,6 +8,8 @@ Environment for reproducing the analysis of the proteomics data collected during
   Below are two options for starting it on Windows 7 that uses VirtualBox or OS X Yosemite that natively supports docker. Launching this image on other platforms will be some sort of combination of these two approaches.
   
   * Windows 7 with VirtualBox
+    
+    - Increase the VirtualBox machine memory to 4 Gb.
   
     - Use Kinematic to download and start "lungproteomics_ca" docker image.
     
