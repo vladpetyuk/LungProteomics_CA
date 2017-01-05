@@ -1,11 +1,23 @@
 
+# options(repos = c(
+#     CRAN = "https://mran.revolutionanalytics.com/snapshot/2016-08-01/", # August 01, 2016
+#     BioCsoft = "https://bioconductor.org/packages/3.3/bioc", 
+#     BioCann = "https://bioconductor.org/packages/3.3/data/annotation",
+#     BioCexp = "https://bioconductor.org/packages/3.3/data/experiment",
+#     BioCextra = "https://bioconductor.org/packages/3.3/extra"
+# ))
+
+
+# trying earlier version
 options(repos = c(
-    CRAN = "https://mran.revolutionanalytics.com/snapshot/2016-08-01/", # August 01, 2016
-    BioCsoft = "https://bioconductor.org/packages/3.3/bioc", 
-    BioCann = "https://bioconductor.org/packages/3.3/data/annotation",
-    BioCexp = "https://bioconductor.org/packages/3.3/data/experiment",
-    BioCextra = "https://bioconductor.org/packages/3.3/extra"
+    CRAN = "https://mran.revolutionanalytics.com/snapshot/2016-06-01/", # June 01, 2016
+    BioCsoft = "https://bioconductor.org/packages/3.2/bioc", 
+    BioCann = "https://bioconductor.org/packages/3.2/data/annotation",
+    BioCexp = "https://bioconductor.org/packages/3.2/data/experiment",
+    BioCextra = "https://bioconductor.org/packages/3.2/extra"
 ))
+
+
 
 pkgs <- c("pcaMethods","e1071", "clusterProfiler", "ReactomePA", "org.Mm.eg.db",
           "MSnbase", "Biostrings", "Heatplus", "made4","FField", # packages from this line should be moved into depends of vp.misc
