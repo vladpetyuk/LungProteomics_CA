@@ -8,8 +8,17 @@ options(repos = c(
 ))
 
 pkgs <- c("pcaMethods","e1071", "clusterProfiler", "ReactomePA", "org.Mm.eg.db",
-          "MSnbase", "Biostrings", "Heatplus", "made4","FField") # packages from this line should be moved into depends of vp.misc
+          "MSnbase", "Biostrings", "Heatplus", "made4","FField", # packages from this line should be moved into depends of vp.misc
+          "BiocStyle")
 install.packages(pkgs)
+
 
 library(devtools)
 install_github("vladpetyuk/vp.misc", ref = "d4ce169eb1459a4951c3824187eb5480c1bbae72") # Nov 14, 2016
+
+# bump rmarkdown to 1.2
+install_version("rmarkdown", version = "1.2", repos = "http://cran.us.r-project.org")
+
+# bump BiocStyle
+packageurl <- "https://bioconductor.org/packages/3.4/bioc/src/contrib/BiocStyle_2.2.1.tar.gz"
+install.packages(packageurl, repos=NULL, type="source")
